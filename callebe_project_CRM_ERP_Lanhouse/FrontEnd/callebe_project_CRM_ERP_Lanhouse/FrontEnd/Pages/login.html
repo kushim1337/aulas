@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | LanControl CRM</title>
+    <link rel="stylesheet" href="/css/auth.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./index.html">LanControl CRM</a>
+      <nav class="nav">
+        <a href="./index.html">Home</a>
+        <a href="./register.html">Cadastro</a>
+        <a href="./dashboard.html">Dashboard</a>
+      </nav>
+    </header>
+
+    <main class="auth-page">
+      <section class="auth-shell">
+        <div class="auth-info">
+          <p class="eyebrow">Acesso da equipe</p>
+          <h1>Entrar no LanControl CRM</h1>
+          <p>
+            Esta tela simula o acesso de funcionarios da lan house. Na fase de
+            backend, os dados serao validados pela API e pelo banco.
+          </p>
+        </div>
+
+        <section class="auth-panel" aria-labelledby="loginTitle">
+          <h2 id="loginTitle">Login</h2>
+          <form id="loginForm" class="form">
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" placeholder="admin@lancontrol.com" required />
+            </div>
+
+            <div class="field">
+              <label for="password">Senha</label>
+              <input id="password" name="password" type="password" placeholder="Digite sua senha" required />
+            </div>
+
+            <button class="button" type="submit">Entrar</button>
+            <p id="loginMessage" class="form-message" aria-live="polite"></p>
+          </form>
+
+          <p class="auth-link">
+            Ainda nao tem conta?
+            <a href="./register.html">Cadastrar usuario</a>
+          </p>
+        </section>
+      </section>
+    </main>
+
+    <script src="./js/auth.js"></script>
+  </body>
+</html>
+
+
+
+

@@ -1,0 +1,27 @@
+:root{
+--dark-amethyst: #3a015cff;
+--deep-purple: #4f0147ff;
+--midnight-violet: #35012cff;
+--midnight-violet-2: #290025ff;
+--midnight-violet-3: #11001cff;
+}
+
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--midnight-violet-3);
+    height: 72px;
+    max-width: 100%;
+}
+
+h1{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a{
+
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+}
