@@ -1,0 +1,52 @@
+:root{
+--dark-amethyst: #3a015cff;
+--deep-purple: #4f0147ff;
+--midnight-violet: #35012cff;
+--midnight-violet-2: #290025ff;
+--midnight-violet-3: #11001cff;
+--onyx: #090c08ff;
+--vintage-grape: #474056ff;
+--rosy-granite: #757083ff;
+--cool-steel: #8a95a5ff;
+--ash-grey: #b9c6aeff;
+--olive-leaf: #606c38ff;
+--black-forest: #283618ff;
+--cornsilk: #fefae0ff;
+--sunlit-clay: #dda15eff;
+--copperwood: #bc6c25ff;
+}
+
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: none;
+    height: 72px;
+    max-width: 100%;
+}
+
+body{
+  background-color:antiquewhite
+}
+
+h1{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: var(--midnight-violet-2);
+}
+h2{
+  color: var(--midnight-violet-3);
+}
+a{
+
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100px;
+  font-style: normal;
+  color: aqua;
+}
+p{
+  color: var(--deep-purple);
+}
+label{
+  color: var(--dark-amethyst);
+}

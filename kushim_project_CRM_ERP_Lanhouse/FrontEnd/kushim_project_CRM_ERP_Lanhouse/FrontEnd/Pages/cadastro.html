@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro | LanControl CRM</title>
+    <link rel="stylesheet" href="/css/auth.css"/>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="./index.html">LanControl CRM</a>
+      <nav class="nav">
+        <a href="./index.html">Home</a>
+        <a href="./login.html">Login</a>
+        <a href="./dashboard.html">Dashboard</a>
+      </nav>
+    </header>
+
+    <main class="auth-page">
+      <section class="auth-shell">
+        <div class="auth-info">
+          <p class="eyebrow">Novo acesso</p>
+          <h1>Cadastrar usuario</h1>
+          <p>
+            Esta pagina registra, por enquanto, usuarios simulados no navegador.
+            Depois, o cadastro sera enviado para o backend e salvo no banco.
+          </p>
+        </div>
+
+        <section class="auth-panel" aria-labelledby="registerTitle">
+          <h2 id="registerTitle">Criar conta</h2>
+          <form id="registerForm" class="form">
+            <div class="field">
+              <label for="name">Nome</label>
+              <input id="name" name="name" type="text" placeholder="Nome do funcionario" required />
+            </div>
+
+            <div class="field">
+              <label for="role">Funcao</label>
+              <select id="role" name="role" required>
+                <option value="">Selecione</option>
+                <option value="Atendente">Atendente</option>
+                <option value="Gerente">Gerente</option>
+                <option value="Tecnico">Tecnico</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="registerEmail">E-mail</label>
+              <input id="registerEmail" name="email" type="email" placeholder="usuario@lancontrol.com" required />
+            </div>
+
+            <div class="field">
+              <label for="registerPassword">Senha</label>
+              <input id="registerPassword" name="password" type="password" placeholder="Minimo de 6 caracteres" required />
+            </div>
+
+            <button class="button" type="submit">Cadastrar</button>
+            <p id="registerMessage" class="form-message" aria-live="polite"></p>
+          </form>
+
+          <p class="auth-link">
+            Ja tem conta?
+            <a href="/aulas-main/kushim_project_CRM_ERP_Lanhouse/FrontEnd/kushim_project_CRM_ERP_Lanhouse/FrontEnd/Pages/login.html">Entrar no sistema</a>
+          </p>
+        </section>
+      </section>
+    </main>
+
+    <script src="./js/auth.js"></script>
+  </body>
+</html>
